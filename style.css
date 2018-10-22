@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    background-image: url('img/graysteam.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 800px;
+    min-width: 346px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.caption{
+    background: green;
+    min-height: 200px;
+    margin-top: 50px;
+}
+
+.container {
+    font-family: 'Basic', Georgia;
+    font-size: 14px;
+    display: flex;
+    width: 100%;
+    font-weight: 300;
+
+}
+
+.top-block {
+    background-image: url('img/graysteam.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 25px;
+}
+
+.left-block {
+    width: 35%;
+    height: inherit;
+    border-right: 1px solid darkolivegreen; /*rgb(59, 58, 58);*/
+    overflow: auto ;
+}
+
+.right-block {
+    width: 65%;
+    padding-bottom: 20px;
+}
+
+.card-block {
+    margin-top: 10px;
+}
+
+h1 {
+    color: gray;
+    background: black;
+    color: #acff2fc9;    
+}
+
+h2 {
+    background: darkolivegreen;
+    color: white;
+    letter-spacing: 6px;
+}
+
+h4 { 
+    font-size: 16px;
+    color: white;
+    font-family: 'Kodchasa', Georgia;
+    background: gray;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 800;
+
+}
+
+.summury {
+    margin-top: 10px;
+    color:lightgray;
+    
+}
+
+.contacts {
+    margin-top: 10px;
+}
+
+.social {
+    margin-top: 10px;
+}
+
+.personal {
+    margin-top: 10px;
+}
+
+.ul-contacts {
+    color:lightgray;
+    margin: 10px 5px;
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+  }
+
+  .text {
+    color: #acff2fc9;
+  }
+
+  .ul-personal-skills {
+    color:lightgray;
+    margin: 10px 10px;
+    text-align: left;
+    padding: 0 15px;
+    list-style-type: circle;
+  }
+
+
+.summury p {
+    padding-left: 5px;
+    padding-top: 5px;
+    text-align: left
+}
+
+.p-name {
+    font-family: 'Merienda', Georgia;
+    font-size: 21px;
+    color: white;
+}
+
+.p-position {
+    font-size: 18px;
+    margin-top: 5px;
+  /*  color: rgb(43, 124, 170);*/
+  color: #acff2fc9;
+    font-weight: 100; 
+
+}
+
+.git-ref {
+    color: rgb(43, 124, 170);
+}
+
+.experience-block {
+    color: lightgray;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.experience-block p{
+    padding: 0 10px;
+}
+
+.p-experience {
+    margin-top: 10px;
+}
+
+.skills-block {
+    margin-top: 10px;
+}
+
+.skills-text-align {
+    text-align: center;
+    color:lightgray;
+}
+
+.section-skills-align {
+    display: inline-block;
+    padding: 1px 10px;
+    background-color:darkolivegreen;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.radius {
+    border-radius: 3px;
+      margin-right: 2px;
+}
+
+.ul-marker{
+    list-style-type: circle;
+}
+
+ol {
+      text-align: left;
+      margin-left: 25px;
+}
+
+.skills-block ul {
+    color:lightgray;
+    margin: 10px 10px;
+    text-align: left;
+    padding: 0 15px;
+    list-style-type: circle;
+}
+
+.skills-text-align {
+      margin-top: 10px;
+}
+
+.blocks {
+      display: inline-block;
+      line-height: 1.2;
+}
+
+.education {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.education-items {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.education-items p {
+    color: lightgray;
+}
+
+.left-block-sections-caption {
+    background: rgb(47, 76, 139);
+    color: white;
+}
+
+.skills-block p {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
