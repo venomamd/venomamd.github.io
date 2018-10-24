@@ -5,10 +5,7 @@
 
 
 .wrapper {
-    background-image: url('img/graysteam.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    background: #333333;
     width: 100%;
     max-width: 1000px;
     min-height: 800px;
@@ -33,10 +30,7 @@
 }
 
 .top-block {
-    background-image: url('img/graysteam.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    background: #333333;
     min-height: 25px;
 }
 
